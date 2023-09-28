@@ -1,0 +1,39 @@
+.menuvav{
+    position: fixed;
+    background: white
+}
+.redes{
+    display: flex;
+    padding: 30px;
+  
+}
+
+h1{
+    padding: 70px;
+}
+
+.img-fluid{
+    filter: brightness(0.5);
+}
+.banner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.ejer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.desc{
+    border: 2px rgb(145, 14, 172);
+    border-radius: 15px 50px 30px 5px;
+    
+}
+
+
+  

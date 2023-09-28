@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzanas del cuidado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="" href="data:image/png;base64,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" >
+</head>
+<body>
+  <!--barra de navegacion-->
+<section class="menunav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand"  href="#" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1CBB2nkviydSwM8PFbmuLNHfvNK1cqtTlp3DYpY4yNSM91ldZL22r1SMiwTVOprG0w&usqp=CAU" alt="" height="80px" width="250px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Asesoramiento juridico</a></li>
+                  <li><a class="dropdown-item" href="#">Emprendimiento</a></li>
+                  <li><a class="dropdown-item" href="#">Empleo</a></li>
+                  <li><a class="dropdown-item" href="#">Descanso</a></li>
+                  <li><a class="dropdown-item" href="#">Psicologia</a></li>
+                  <li><a class="dropdown-item" href="ejercicio.html">Ejercicio</a></li>
+                  <li><a class="dropdown-item" href="#">Lavanderia comunitaria</a></li>
+                  <li><a class="dropdown-item" href="#">Estudio</a></li>
+                  <li><a class="dropdown-item" href="#">Recibir orientacion</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ubicaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Iniciar Sesion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <section class="redes">
+          <div><img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png" alt="" width="50px"></div>
+          <div><img src="https://freelogopng.com/images/all_img/1658587303instagram-png.png" alt="" width="40px"></div>
+          <div><img src="https://static.vecteezy.com/system/resources/previews/018/930/573/non_2x/tiktok-logo-tikok-icon-transparent-tikok-app-logo-free-png.png" alt="" width="40px"> </div>
+        
+      </section>
+      </nav>
+</section>
+<!--fin de la barra de navegacion-->
+
+<!--Formulario de registro-->
+
+    <div class="container mt-5">
+        <h1 class="text-center">Formulario de Registro</h1>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido" name="apellido" required>
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" name="correo" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Número de Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" required>
+            </div>
+            <div class="mb-3">
+                <label for="ocupacion" class="form-label">Ocupación</label>
+                <input type="text" class="form-control" id="ocupacion" name="ocupacion">
+            </div>
+            <div class="mb-3">
+                <label for="direccion" class="form-label">Dirección</label>
+                <textarea class="form-control" id="direccion" name="direccion" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="tipoDocumento" class="form-label">Tipo de Documento</label>
+                <select class="form-select" id="tipoDocumento" name="tipoDocumento">
+                    <option value="DNI">DNI</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                    <option value="Cédula">Cédula</option>
+                    <option value="Cédula">T.identidad</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="numeroDocumento" class="form-label">Número de Documento</label>
+                <input type="text" class="form-control" id="numeroDocumento" name="numeroDocumento" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+    </div>
+    <!--Formulario de registro-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
